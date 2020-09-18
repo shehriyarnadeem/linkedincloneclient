@@ -1,0 +1,6 @@
+.startPost > form {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 8px solid rgba(0, 0, 0, 0.9);
+  padding-right: 10px;
+}

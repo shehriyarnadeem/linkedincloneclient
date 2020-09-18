@@ -1,0 +1,21 @@
+.startPost > form {
+  padding-bottom: 10px;
+
+  padding-right: 10px;
+  border: 1px solid var(--white, #fff);
+  box-shadow: inset 0 1.5px 3px 0 var(--black-a15, rgba(0, 0, 0, 0.15)),
+    0 1.5px 3px 0 var(--black-a15, rgba(0, 0, 0, 0.15));
+
+  background-color: var(--white, #fff);
+}
+.startPost__input {
+  display: flex;
+  padding: 10px;
+}
+.startPost__input > textarea {
+  border: 0px;
+  padding: 20px;
+  max-width: 300px;
+  max-height: 400px;
+  background-color: var(--white, #fff);
+}

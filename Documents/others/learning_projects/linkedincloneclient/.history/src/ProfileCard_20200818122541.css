@@ -1,0 +1,27 @@
+.profileCard {
+  width: 80%;
+  border-radius: 3px !important;
+  display: flex;
+}
+
+.profileCard__display {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.profileCard__cover {
+  width: 130%;
+  height: 80px;
+  object-fit: cover;
+}
+
+.profileCard__avatar {
+  border-radius: 50px;
+  margin-top: 30px;
+  z-index: 00000000;
+  position: absolute;
+  object-fit: contain;
+}

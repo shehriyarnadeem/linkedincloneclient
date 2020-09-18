@@ -1,0 +1,5 @@
+.profileCard {
+  width: 60%;
+  border-radius: 3px !important;
+  display: flex;
+}

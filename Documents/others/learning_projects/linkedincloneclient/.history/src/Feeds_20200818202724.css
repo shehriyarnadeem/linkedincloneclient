@@ -1,0 +1,9 @@
+.feeds {
+  flex: 0.4;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+
+.feeds::-webkit-scrollbar {
+  display: none;
+}

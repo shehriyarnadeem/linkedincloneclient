@@ -1,0 +1,7 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+
+  border-bottom: 1px solid var(--twitter-background);
+}

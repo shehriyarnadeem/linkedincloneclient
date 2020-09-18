@@ -1,0 +1,39 @@
+.login {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  place-items: top;
+}
+
+.login__container {
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__container > img {
+  height: 100px;
+  object-fit: contain;
+}
+
+.login__container > h1 {
+  font-size: 1.9rem;
+  line-height: 1.33333;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 0 0 4px 0;
+}
+
+.login__container > p {
+  font-size: 1.2rem;
+  line-height: 1.75;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 32px;
+}
+
+.login__container_input {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--linkedin-background);
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  flex: 0.4;
+  display: flex;
+
+  background-color: aqua;
+  margin-left: 100px;
+}

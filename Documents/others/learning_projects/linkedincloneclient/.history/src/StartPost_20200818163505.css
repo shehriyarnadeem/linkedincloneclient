@@ -1,0 +1,12 @@
+.startPost > form {
+  padding-bottom: 10px;
+  border-bottom: 8px solid rgba(0, 0, 0, 0.9);
+  padding-right: 10px;
+}
+.startPost__input {
+  display: flex;
+  padding: 10px;
+}
+.startPost__input > input {
+  height: 200px;
+}

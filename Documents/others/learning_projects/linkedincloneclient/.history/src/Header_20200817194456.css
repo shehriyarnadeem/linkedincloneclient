@@ -1,0 +1,18 @@
+.header {
+  background-color: var(--linkedin-background);
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  flex: 0.2;
+  display: flex;
+  align-content: flex-start;
+  background-color: aqua;
+}
+
+.header__left > img {
+  margin-right: auto;
+  margin-left: 40px;
+}

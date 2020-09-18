@@ -1,0 +1,18 @@
+.header {
+  background-color: var(--linkedin-background);
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  flex: 0.3;
+  display: flex;
+  padding: 0 10px;
+  background-color: aqua;
+  margin-left: 100px;
+}
+
+.header__left > input {
+  width: 60%;
+}
